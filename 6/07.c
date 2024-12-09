@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int n, i, count = 0;
+    int n, count = 0;
     char input[100], is_group_word;
 
     scanf("%d", &n);
 
-    for (i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         scanf("%s", input);
         
         char exist[26] = { 0, }, temp = input[0];

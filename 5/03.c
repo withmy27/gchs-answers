@@ -9,7 +9,8 @@ int main() {
     for (int i = 0; i < t; i++) {
         scanf("%s", str);
 
-        for (int j = 0, len = 0; str[j] != '\0'; j++, len++);
+        len = 0;
+        for (int j = 0; str[j] != '\0'; j++, len++);
 
         printf("%c%c\n", str[0], str[len - 1]);
     }

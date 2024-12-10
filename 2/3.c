@@ -6,9 +6,9 @@ int main() {
     scanf("%d", &a);
 
     if (a % 4 == 0 && a % 100 != 0 || a % 400 == 0) 
-      puts("1");
+        puts("1");
     else 
-      puts("0");
+        puts("0");
   
     return 0;
 }

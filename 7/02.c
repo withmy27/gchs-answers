@@ -7,8 +7,8 @@ int main() {
         scanf("%d", &input);
         
         if (input > max) {
-        max = input;
-        max_i = i;
+            max = input;
+            max_i = i;
         }
     }
     
